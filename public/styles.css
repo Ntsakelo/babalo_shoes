@@ -1,0 +1,641 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.navMenu {
+  position: fixed;
+  z-index: 100;
+
+  background-color: white;
+  margin: 0;
+  width: 100%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+.nav {
+  height: 50px;
+}
+#letterStyle {
+  font-family: "Permanent Marker", cursive;
+
+  font-size: 32px;
+  background-color: black;
+  color: white;
+}
+#logoLetters {
+  font-family: "Permanent Marker", cursive;
+
+  font-size: 32px;
+  background-color: black;
+  color: white;
+}
+.logo {
+  color: grey;
+}
+.nav-link {
+  color: black;
+}
+.signIn {
+  color: black;
+}
+.nav-link:hover {
+  cursor: pointer;
+  color: black;
+}
+.nav-link:focus {
+  color: black;
+}
+.cat-small {
+  color: black;
+}
+.cat-small:hover {
+  cursor: pointer;
+  color: black;
+}
+.cat-small:focus {
+  color: black;
+}
+.count {
+  height: 15px;
+  width: 15px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  position: relative;
+  left: 3px;
+  top: 5px;
+  font-size: 10px;
+  text-align: center;
+}
+.small-nav {
+  display: none;
+}
+.slideShow {
+  padding-top: 100px;
+}
+
+.product {
+  height: 400px;
+  width: 300px;
+  margin-top: 20px;
+  /* border: 1px solid grey; */
+}
+.shoeImg {
+  width: 100%;
+  height: 200px;
+}
+
+.form-select {
+  margin-bottom: 10px;
+}
+.search {
+  margin-top: 10px;
+}
+.btn {
+  background-color: black;
+  border-color: black;
+}
+.btn:hover {
+  background-color: black;
+}
+.btn:focus {
+  background-color: black;
+  outline: none;
+}
+footer {
+  background-color: black;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+.adminLink {
+  color: white;
+}
+.adminLink:hover {
+  cursor: pointer;
+  color: white;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+.category {
+  margin-bottom: 20px;
+}
+.updthead {
+  margin-bottom: 20px;
+}
+#items {
+  margin-bottom: 20px;
+}
+
+.prodPicture {
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid blue; */
+}
+.prodDetails {
+  width: 200px;
+  height: 20px;
+  /* border: 1px solid blue; */
+  margin-top: 20px;
+}
+.itemInfo {
+  height: 60px;
+}
+.displayPic {
+  width: 100%;
+  height: 100px;
+}
+/* Catalogue items page */
+.myItems {
+  margin-top: 110px;
+}
+.bagItems {
+  margin-bottom: 20px;
+  display: grid;
+  height: 150px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+.checkOut {
+  border: 1px solid rgb(229, 227, 227);
+  height: 200px;
+}
+.itemPicture {
+  grid-column-start: 1;
+  grid-column-end: 5;
+
+  grid-row-start: 1;
+  grid-row-end: 13;
+  /* border: 1px solid blue; */
+}
+.itemProps {
+  grid-column-start: 5;
+  grid-column-end: 13;
+
+  grid-row-start: 1;
+  grid-row-end: 13;
+  /* border: 1px solid red; */
+}
+.props {
+  margin-left: 10px;
+}
+.showImage {
+  height: 150px;
+  width: 100%;
+}
+.qtyVal {
+  width: 30px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+.qtyBtn {
+  border: none;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.orderHead {
+  margin: 10px;
+}
+.orderDetails {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.orderQty {
+  display: inline;
+  float: left;
+}
+.orderTot {
+  display: inline;
+  float: right;
+}
+.totals {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.totText {
+  display: inline;
+  float: left;
+}
+.tot {
+  display: inline;
+  float: right;
+}
+.checkoutBtn {
+  margin-top: 25px;
+}
+.toCartImg {
+  height: 200px;
+  width: 200px;
+  display: inline;
+  float: left;
+}
+.toCartDetails {
+  border: 1px solid grey;
+  display: inline;
+  float: right;
+  margin-right: 30px;
+
+  height: 120px;
+  width: 230px;
+}
+.prodImage {
+  width: 100%;
+  height: 100%;
+}
+.colorTag {
+  margin-bottom: 0px;
+}
+.sizeTag {
+  margin-bottom: 0px;
+}
+.sizes div {
+  border: 1px solid grey;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+.sizes div:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.catQty {
+  margin-bottom: 0px;
+}
+.qtySet {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.sizeSelected {
+  background-color: black;
+  color: white;
+}
+.sizeUnselected {
+  background-color: white;
+  color: black;
+}
+.removeBtn {
+  float: right;
+}
+.login {
+  border: 1px solid grey;
+  width: 350px;
+  height: 300px;
+  margin: auto;
+  margin-top: 200px;
+}
+.describe {
+  background-color: black;
+  color: white;
+}
+.loginForm {
+  margin-top: 25px;
+}
+.update {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 200px;
+  border: 1px solid grey;
+}
+.actions {
+  margin-top: 30px;
+}
+.actions div {
+  border-bottom: 1px solid grey;
+  overflow: auto;
+}
+.actionBtn {
+  width: 150px;
+  margin-top: 10px;
+}
+.errMsg {
+  height: 25px;
+}
+.adminLogo {
+  display: inline;
+  margin-bottom: 20px;
+}
+.logOut {
+  text-decoration: none;
+  display: inline;
+  float: right;
+  margin-top: 5px;
+}
+.product h6 {
+  text-align: center;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-footer {
+  border-top: none;
+}
+.saleTag::after {
+  content: url(./images/sale.png);
+  color: white;
+  position: relative;
+  top: -390px;
+  right: -40px;
+  /* background-color: red; */
+  float: right;
+}
+.oldPrice {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.newPrice {
+  height: 22px;
+}
+.userAction {
+  border: 1px solid red;
+  width: 20%;
+  position: fixed;
+  right: 10px;
+}
+.userHead {
+  color: white;
+}
+.regForm,
+.signInForm {
+  width: 50%;
+  margin: auto;
+}
+.regInput,
+.signinInput,
+.cardInput {
+  display: block;
+  width: 100%;
+  height: 50px;
+  outline: none;
+}
+.validation,
+.signInValidation {
+  float: right;
+  font-size: 12px;
+  color: rgb(180, 24, 24);
+  opacity: 0;
+}
+.alert {
+  border: 1px solid rgb(237, 17, 17);
+}
+.alertMsg {
+  opacity: 1;
+}
+.regBtn,
+.signinBtn {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+}
+.formH4,
+.formP {
+  text-align: center;
+}
+.goToLogin {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  color: grey;
+}
+.goToLogin:hover {
+  color: grey;
+}
+.goToRegister {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  color: grey;
+}
+.goToRegister:hover {
+  color: grey;
+}
+#staticSuccess {
+  z-index: 2500;
+}
+#successModal {
+  text-align: center;
+}
+.fa-regular {
+  color: white;
+  margin-right: 5px;
+}
+.continueBtn {
+  display: block;
+  margin: auto;
+  color: white;
+  margin-top: 20px;
+}
+.continueBtn:hover {
+  color: white;
+}
+.registrationStatus {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.loginStatus {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.success {
+  background-color: rgb(19, 162, 19);
+  color: white;
+}
+.error {
+  background-color: rgb(251, 39, 39);
+  color: white;
+}
+.signInName {
+  margin-top: 10px;
+}
+.paylogo {
+  float: right;
+  margin-bottom: 10px;
+}
+.expiryDate {
+  width: 100%;
+  /* margin-top: 20px; */
+  display: inline;
+}
+.cvv {
+  width: 100%;
+  display: inline;
+}
+.cardHolder {
+  margin-top: 20px;
+}
+.purchaseBtn {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+#itemHead {
+  text-align: left;
+}
+.product p {
+  text-align: center;
+}
+.doneBtn {
+  display: block;
+  margin: auto;
+}
+.statusMessage {
+  text-align: center;
+}
+.expiryDiv {
+  width: 48%;
+  display: inline-block;
+}
+.cvvDiv {
+  width: 48%;
+  display: inline-block;
+}
+.validateMsg {
+  margin-top: 10px;
+  color: rgb(180, 24, 24);
+  opacity: 0;
+}
+@media screen and (width: 280px) {
+  #letterStyle {
+    font-size: 20px;
+  }
+  .adminLogo {
+    display: block;
+  }
+  .logOut {
+    display: block;
+    float: none;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .regForm,
+  .signInForm {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .toCartDetails {
+    display: block;
+    float: none;
+    margin: auto;
+    margin-bottom: 0px;
+  }
+  .toCartImg {
+    display: block;
+    float: none;
+    margin: auto;
+    width: 230px;
+  }
+  #toCartDisplay {
+    margin-bottom: 0px;
+
+    height: 420px;
+  }
+  #sizesQty {
+    text-align: center;
+
+    margin-top: 0px;
+  }
+
+  .purchase {
+    margin-top: 0px;
+    position: relative;
+    top: -45px;
+  }
+  .login {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (width: 540px) {
+  .itemPicture {
+    grid-column-end: 4;
+  }
+  .itemProps {
+    grid-column-start: 4;
+  }
+}
+@media screen and (max-width: 767px) {
+  .big-nav {
+    display: none;
+  }
+  .small-nav {
+    display: block;
+  }
+  .count {
+    font-size: 15px;
+  }
+  #catalog {
+    font-size: 25px;
+  }
+  .smallLink {
+    text-decoration: none;
+  }
+  #items {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #letterStyle {
+    margin-left: 30px;
+  }
+  .product {
+    margin: 10px;
+  }
+
+  .slideShow {
+    padding-top: 60px;
+  }
+  #searchOpt {
+    width: 80%;
+    margin: auto;
+  }
+  .itemInfo {
+    height: 100px;
+  }
+  .myItems {
+    margin-top: 70px;
+  }
+
+  .checkOut {
+    width: 50%;
+  }
+  .qtySet {
+    margin-left: 5px;
+    width: 25%;
+    margin-left: 45%;
+  }
+  .catQty {
+    margin-left: 45%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .itemPicture {
+    grid-column-end: 4;
+  }
+  .itemProps {
+    grid-column-start: 4;
+  }
+}
+/* @media screen and (min-width: 280px) {
+  .userAction {
+    right: 50px;
+  }
+} */
